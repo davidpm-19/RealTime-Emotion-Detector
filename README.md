@@ -46,6 +46,12 @@ With a simple 4-layer CNN, the test accuracy reached 60% in 50 epochs showing ho
 
 To run the live emotion detection system with the included model, follow these steps:
 
+0. Clone this repository and navigate to the directory
+```bash
+git clone https://github.com/davidpm-19/RealTime-Emotion-Detector.git
+cd Emotion-detection
+```
+
 1. Run the live detection script: Start the live webcam feed by running the LiveFaceDetection class, which will automatically load the Haar cascades for face and eye detection, and the emotion recognition model.
 ```bash
 python emotion_detector.py
