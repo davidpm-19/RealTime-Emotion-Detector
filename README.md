@@ -1,5 +1,8 @@
 # Emotion detection using deep learning
 
+> [!CAUTION]
+> This repository is licensed with a modified Apache 2.0 License which adds a non-commerical use clause
+
 ## Introduction
 
 This project implements a real-time emotion detection system using OpenCV for face and eye detection, and a pre-trained convolutional neural network (CNN) model for emotion recognition. The system captures video feed from a webcam, detects faces and eyes using Haar cascades, and classifies emotions such as 'Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', and 'Neutral' using a Keras model trained with FER-2013 Dataset. The system visualizes both the face bounding box and predicted emotion in real time.
