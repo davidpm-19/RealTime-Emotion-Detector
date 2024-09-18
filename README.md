@@ -18,7 +18,7 @@ To install the required packages, run `pip install -r requirements.txt`.
 The directory structure is of the form: 
 
 ```md
-EmotionDetect
+RealTime-Emotion-Detector
 ├── config
 │   ├── frame_drawing.py
 │   └── frame_editing.py
