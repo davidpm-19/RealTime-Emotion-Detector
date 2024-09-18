@@ -52,7 +52,7 @@ To run the live emotion detection system with the included model, follow these s
 0. Clone this repository and navigate to the directory
 ```bash
 git clone https://github.com/davidpm-19/RealTime-Emotion-Detector.git
-cd Emotion-detection
+cd RealTime-Emotion-Detector
 ```
 
 1. Run the live detection script: Start the live webcam feed by running the LiveFaceDetection class, which will automatically load the Haar cascades for face and eye detection, and the emotion recognition model.
